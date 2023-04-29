@@ -13,6 +13,7 @@
     // making variables public
     slider.vars = $.extend({}, $.flexslider.defaults, options);
 
+    
     var namespace = slider.vars.namespace,
         msGesture = window.navigator && window.navigator.msPointerEnabled && window.MSGesture,
         touch = (( "ontouchstart" in window ) || msGesture || window.DocumentTouch && document instanceof DocumentTouch) && slider.vars.touch,
